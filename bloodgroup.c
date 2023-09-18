@@ -9,7 +9,7 @@ void main()
     scanf("%s", Name);
     do
     {
-      printf("What is your blood group [A, B, AB, or O]? ");
+      printf("What is your blood type [A, B, AB, or O]? ");
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
@@ -41,7 +41,7 @@ void main()
       printf("%s, O. Nice! You can give blood to all: O, A, B, AB\n", Name);
       printf("  But Sad! You can receive blood only from: O\n");
     }
-    printf("\nContinue (YES for Yes)? ");
+    printf("\nContinue (No for No)? ");
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
