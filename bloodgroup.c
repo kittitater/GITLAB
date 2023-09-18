@@ -1,3 +1,5 @@
+// This is example of change something in bloodgroup.c 
+
 #include <stdio.h>
 #include <string.h>
 void main()
